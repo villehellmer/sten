@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: times;
+    font-weight: 200;
+}
+
+header{
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 0 30%;
+}
+
+p{
+    margin-bottom: 4rem;
+    font-size: clamp(10px, 5vw, 20px);
+    padding: 0 30%;
+    line-height: 40px;
+}
+
+span{
+    opacity: 0;
+}
+
+#bottom {
+    margin-bottom: 100vh;
+}

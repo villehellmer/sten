@@ -1,0 +1,33 @@
+
+#container {
+    display: flex;
+  }
+  
+  .image-container {
+    cursor: grab;
+    position: relative;
+    transform: translate(0, 0); /* Default transform value */
+  }
+  
+  .image-container:nth-child(1) {
+    transform: translate(50px, 50px); /* Adjust as needed */
+  }
+  
+  .image-container:nth-child(2) {
+    transform: translate(100px, 100px); /* Adjust as needed */
+  }
+  
+  .image-container:nth-child(3) {
+    transform: translate(150px, 150px); /* Adjust as needed */
+  }
+  
+  img {
+    position: absolute;
+  }
+  
+  
+  
+  
+  
+  
+  
